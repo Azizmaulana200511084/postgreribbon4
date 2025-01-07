@@ -1,0 +1,11 @@
+create table alumni(
+    idalumni serial primary key not null,
+    kode_alumni varchar(20) unique not null,
+    nama varchar(50) not null,
+    jk char(1) not null,
+    tempat_kerja varchar(50),
+    jabatan varchar(50),
+    bekerja_sejak varchar(50),
+    telepon varchar(30),
+    email varchar(100)
+);
